@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanQRCode"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <SurfaceView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/cameraPreview"
+            android:layout_marginTop="60dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan QR code"
+            android:id="@+id/txtString"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
